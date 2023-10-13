@@ -2,7 +2,6 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/conor-dowdall-writer/",
   build: {
     rollupOptions: {
       input: {
@@ -15,4 +14,5 @@ export default defineConfig({
       },
     },
   },
+  base: "/conor-dowdall-writer/",
 });
