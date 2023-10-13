@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+:root {
+  --color-lightness-low: 10%;
+  --color-lightness-low-mid: 40%;
+  --color-lightness-mid: 70%;
+  --color-lightness-high-mid: 90%;
+  --color-lightness-high: 100%;
+
+  --color-chroma: 0.3;
+  --color-hue: 110;
+
+  --color-low: var(--color-lightness-low) var(--color-chroma) var(--color-hue);
+  --color-low-mid: var(--color-lightness-low-mid) var(--color-chroma)
+    var(--color-hue);
+  --color-mid: var(--color-lightness-mid) var(--color-chroma) var(--color-hue);
+  --color-high-mid: var(--color-lightness-high-mid) var(--color-chroma)
+    var(--color-hue);
+  --color-high: var(--color-lightness-high) var(--color-chroma) var(--color-hue);
+
+  --text-shadow-primary: 0em 0em 0.5em oklch(var(--color-high-mid)),
+    0em 0em 2em oklch(var(--color-high-mid)), 0.05em 0.05em 0.05em black;
+  --text-shadow-primary-dark: 0em 0em 0.5em oklch(var(--color-low-mid)),
+    0em 0em 2em oklch(var(--color-low-mid)), 0.05em 0.05em 0.05em black;
+  --text-shadow-secondary: 0em 0em 0.02em oklch(var(--color-mid)),
+    0em 0em 0.5em oklch(var(--color-mid)), 0.05em 0.07em 0em black;
+
+  --default-margin-block: 2rem;
+  --default-font-size: 1.2rem;
+  --default-font-color: white;
+  --default-block-padding: 1.3rem;
+  --default-block-border: 0.15em solid oklch(var(--color-mid));
+  --default-border-radius: 1.5rem;
+  --default-block-bg-color: rgb(0 0 0 / 0.5);
+
+  --default-link-color: rgb(184, 250, 255);
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  background-image: linear-gradient(
+      to bottom right,
+      #777,
+      rgb(2 17 0 / 0.7),
+      #777
+    ),
+    url(/conor-pen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  max-width: min(95%, 53rem);
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  text-shadow: var(--text-shadow-primary);
+  font-family: "Charm", cursive;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 2em;
+  margin-top: 0;
+  background-image: linear-gradient(
+      to bottom,
+      transparent 45%,
+      oklch(var(--color-low) / 0.6),
+      transparent 55%
+    ),
+    linear-gradient(
+      to right,
+      transparent 10%,
+      oklch(var(--color-low) / 0.6),
+      transparent 90%
+    );
+}
+
+h2 {
+  display: inline;
+  color: white;
+  text-shadow: var(--text-shadow-secondary);
+  font-family: "Special Elite", cursive;
+  line-height: 2em;
+  border-bottom: 0.12em solid oklch(var(--color-mid));
+  padding-bottom: 0.2em;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Homepage for the writer Conor Dowdall. This page contains a short biography."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="js/site-top-nav/site-top-nav.mjs"></script>
+    <title>Conor Dowdall | Home</title>
+    <style>
+      p {
+        margin-block: var(--default-margin-block);
+        font-size: var(--default-font-size);
+        color: var(--default-font-color);
+        padding: var(--default-block-padding);
+        border: var(--default-block-border);
+        border-radius: var(--default-border-radius);
+        background-color: var(--default-block-bg-color);
+
+        & > span {
+          text-shadow: var(--text-shadow-secondary);
+          display: block;
+          font-size: 1.6rem;
+          padding-block: 0.8em;
+          padding-inline: min(5vw, 3em);
+          color: rgb(200 200 200 / 0.9);
+          text-align: center;
+        }
+
+        & > span.atEndOfP {
+          padding-bottom: 0;
+        }
+
+        & > span.quote::before {
+          position: relative;
+          color: rgb(200 200 200 / 0.6);
+          top: 0.15em;
+          content: "\275D";
+          margin-right: 0.3em;
+        }
+        & > span.quote::after {
+          position: relative;
+          color: rgb(200 200 200 / 0.6);
+          top: 0.15em;
+          content: "\275E";
+          margin-left: 0.3em;
+        }
+      }
+
+      a {
+        color: var(--default-link-color);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <site-top-nav></site-top-nav>
+      <h1>Welcome</h1>
+    </header>
+    <main>
+      <h2 class="section-heading">Conor Dowdall | Writer</h2>
+      <p>
+        <a
+          href="https://en.wikipedia.org/wiki/Rickrolling#/media/File:RickRoll.png"
+          target="_blank"
+          >Conor</a
+        >
+        was born in Dublin in 1978 on the same day that
+        <a
+          href="https://upload.wikimedia.org/wikipedia/commons/a/a1/1914_Golda_in_Milwaukee.jpg"
+          target="_blank"
+          >Golda Meir</a
+        >
+        died. That day, the 8th of December, would prove
+        <span
+          >instrumental in
+          <a
+            href="https://en.wikipedia.org/wiki/Rickrolling#/media/File:RickRoll.png"
+            target="_blank"
+            >Conor's</a
+          >
+          life,</span
+        >
+        and all of the people whose lives he ruined. When pushed on the topic,
+        Conor has repeatedly claimed he is
+        <span class="quote">not sorry about any of it.</span> and has flatly
+        refused to apologise on many occasions.
+      </p>
+      <p>
+        Developing a taste for beer and whiskey at the early age of seven, Conor
+        was descibed in many interviews with his parents as
+        <span class="quote">a torturous nightmare.</span> In one interview, his
+        mother said<span class="quote atEndOfP"
+          >Have you ever seen The Omen? Conor was a lot like Damien in
+          that.</span
+        >
+      </p>
+      <p>
+        In his best-selling memoir,
+        <i>Echoes of Prometheus: Dancing in the Twilight Garden</i>, Dowdall
+        recalls the complexities of navigating the stark contrasts between his
+        poverty-stricken early childhood and his overtly-opulent,
+        hyper-indulgent teenage years.
+        <span class="quote atEndOfP"
+          >It was a real mind-f*ck. Everything about it was designed to make me
+          the psychopath I am today. If it wasn't for actress, dancer, producer,
+          and singer,
+          <a
+            href="https://www.imdb.com/name/nm0000443/mediaviewer/rm1674300416/?ref_=ext_shr_lnk"
+            target="_blank"
+            >Goldie Hawn</a
+          >, I don't think I would have made it.</span
+        >
+      </p>
+      <p>
+        A millionaire several times over, and with a catalogue of hundreds of
+        thousands of poems, short stories, and novels, this happening author is
+        pumping out material at a fierce rate, lads. The New York Times
+        described his work as
+        <span class="quote"
+          >... the greatest sequences of words ever put into sentences by
+          anyone, anywhere - period!</span
+        >
+        The Guardian reported that Mr. Dowdall
+        <span class="quote atEndOfP"
+          >... is clearly a genius of the highest order. When I finish something
+          that he's written, I feel like a member of my family has died.</span
+        >
+      </p>
+    </main>
+  </body>
+</html>
