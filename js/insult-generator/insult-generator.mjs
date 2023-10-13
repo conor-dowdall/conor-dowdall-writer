@@ -106,7 +106,10 @@ template.innerHTML = /* HTML */ `
 
   <div>
     <p data-insult-text>Press here if you agree to be insulted</p>
-    <img data-insult-image src="insult-generator/conor-insult.webp" />
+    <img
+      data-insult-image
+      src="/conor-dowdall-writer/insult-generator/conor-insult.webp"
+    />
   </div>
 `;
 customElements.define(

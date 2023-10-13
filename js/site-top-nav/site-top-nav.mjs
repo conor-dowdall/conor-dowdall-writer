@@ -44,7 +44,7 @@ template.innerHTML = /* HTML */ `
           background-size: 1.9em;
           background-blend-mode: exclusion;
           background-repeat: no-repeat;
-          background-image: url("site-top-nav/schreib-feder.svg");
+          background-image: url("/conor-dowdall-writer/site-top-nav/schreib-feder.svg");
 
           & > a {
             color: white;
@@ -78,7 +78,7 @@ template.innerHTML = /* HTML */ `
           z-index: 9999;
           background-color: rgb(255 255 255 / 0.4);
           background-repeat: no-repeat;
-          background-image: url("site-top-nav/menu-open-icon.svg");
+          background-image: url("/conor-dowdall-writer/site-top-nav/menu-open-icon.svg");
           background-position: center;
           background-size: 85%;
           height: 5em;
@@ -88,7 +88,7 @@ template.innerHTML = /* HTML */ `
         }
 
         & > #toggle-menu-button[aria-expanded="true"] {
-          background-image: url("site-top-nav/menu-close-icon.svg");
+          background-image: url("/conor-dowdall-writer/site-top-nav/menu-close-icon.svg");
           background-size: 55%;
         }
 
@@ -121,9 +121,9 @@ template.innerHTML = /* HTML */ `
   </style>
 
   <nav id="site-top-nav">
-    <a id="logo" href="index.html">
+    <a id="logo" href="/conor-dowdall-writer/index.html">
       <img
-        src="site-top-nav/ink-feather.svg"
+        src="/conor-dowdall-writer/site-top-nav/ink-feather.svg"
         alt="logo with feather pen in ink pot"
       />
     </a>
@@ -138,19 +138,19 @@ template.innerHTML = /* HTML */ `
     </button>
     <ul id="menu-list" data-visible="false" aria-label="menu">
       <li>
-        <a href="quotes.html">Quotes</a>
+        <a href="/conor-dowdall-writer/html/quotes.html">Quotes</a>
       </li>
       <li>
-        <a href="writing.html">Writing</a>
+        <a href="/conor-dowdall-writer/html/writing.html">Writing</a>
       </li>
       <li>
-        <a href="speaking.html">Speaking</a>
+        <a href="/conor-dowdall-writer/html/speaking.html">Speaking</a>
       </li>
       <li>
-        <a href="insults.html">Insults</a>
+        <a href="/conor-dowdall-writer/html/insults.html">Insults</a>
       </li>
       <li>
-        <a href="contact.html">Contact</a>
+        <a href="/conor-dowdall-writer/html/contact.html">Contact</a>
       </li>
     </ul>
   </nav>

@@ -6,11 +6,11 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        quotes: resolve(__dirname, "quotes.html"),
-        writing: resolve(__dirname, "writing.html"),
-        speaking: resolve(__dirname, "speaking.html"),
-        insults: resolve(__dirname, "insults.html"),
-        contact: resolve(__dirname, "contact.html"),
+        quotes: resolve(__dirname, "html/quotes.html"),
+        writing: resolve(__dirname, "html/writing.html"),
+        speaking: resolve(__dirname, "html/speaking.html"),
+        insults: resolve(__dirname, "html/insults.html"),
+        contact: resolve(__dirname, "html/contact.html"),
       },
     },
   },
