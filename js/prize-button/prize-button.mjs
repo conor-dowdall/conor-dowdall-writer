@@ -179,7 +179,7 @@ template.innerHTML = /* HTML */ `
 customElements.define(
   "prize-button",
   class PrizeButton extends HTMLElement {
-    clickGoal = 10;
+    clickGoal = 75;
     clickTotal = 0;
     clickDuration = "0.25s";
     constructor() {

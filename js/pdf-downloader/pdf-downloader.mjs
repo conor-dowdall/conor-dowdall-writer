@@ -111,11 +111,11 @@ template.innerHTML = /* HTML */ `
     <div class="details-area">
       <a data-pdf-link target="_blank">
         <span data-title></span>
-        <img src="/pdf-downloader/PDF_file_icon.svg" alt="PDF file icon"
+        <img src="pdf-downloader/PDF_file_icon.svg" alt="PDF file icon"
       /></a>
     </div>
     <div class="title-page-area">
-      <img src="/pdf-downloader/paper.webp" alt="sheet of paper" />
+      <img src="pdf-downloader/paper.webp" alt="sheet of paper" />
       <h2 data-title></h2>
     </div>
   </div>
