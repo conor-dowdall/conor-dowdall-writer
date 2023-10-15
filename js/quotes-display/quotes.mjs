@@ -7,7 +7,7 @@ export default [
   },
   {
     quote: "Silence is golden. Violence is not golden.",
-    source: "So Insprirational: 16,523 Quotes to Live Your Life By.",
+    source: "So Inspirational: 16,523 Quotes to Live Your Life By.",
   },
   {
     quote:
@@ -17,7 +17,7 @@ export default [
   {
     quote:
       "When you're feeling like life isn't going your way and nothing makes you happy, just stop. What's your problem for God's sake? You're probably making everyone around you sad, you know?",
-    source: "Get Over It: A Philosphical Gift From Me To You.",
+    source: "Get Over It: A Philosophical Gift From Me To You.",
   },
   {
     quote:
@@ -36,7 +36,7 @@ export default [
   },
   {
     quote:
-      "There's absolutely no way to know if there is a God or not, but if there is, which there isn't; but, if there is a God - an all-powerful being up in the sky, watching over everything we do, judging us. Imagine! There isn't, but imagine. If there really is a God, like in the Christian sense, a God sitting on a throne up there in the sky somewhere, thinking \"ooh, you shoudn't have done that\", saying \"ooh, that wasn't part of my plan\", sitting around on his golden, very human, throne going \"ooh, you should all worship me. Why aren't they all woshiping me?\" Imagine! There isn't, but imagine. Imagine him up there with all his angels, hanging around him like subservient little leeches, singing Hallelujah,...",
+      "There's absolutely no way to know if there is a God or not, but if there is, which there isn't; but, if there is a God - an all-powerful being up in the sky, watching over everything we do, judging us. Imagine! There isn't, but imagine. If there really is a God, like in the Christian sense, a God sitting on a throne up there in the sky somewhere, thinking \"ooh, you shouldn't have done that\", saying \"ooh, that wasn't part of my plan\", sitting around on his golden, very human, throne going \"ooh, you should all worship me. Why aren't they all worshipping me?\" Imagine! There isn't, but imagine. Imagine him up there with all his angels, hanging around him like subservient little leeches, singing Hallelujah,...",
     source: "If there is a God. Imagine!",
   },
   {
@@ -50,11 +50,11 @@ export default [
   },
   {
     quote: "Time is precious, but even more precious is me - I mean, you.",
-    source: "So Insprirational: 16,523 Quotes to Live Your Life By.",
+    source: "So Inspirational: 16,523 Quotes to Live Your Life By.",
   },
   {
     quote:
-      "Live for revenge. Life is all about revenge. Murder anyone who stands in your way and disolve their body in a vat of acid. That's what I did and I'm a millionaire, so you should probably listen to me.",
-    source: "So Insprirational: 16,523 Quotes to Live Your Life By.",
+      "Live for revenge. Life is all about revenge. Murder anyone who stands in your way and dissolve their body in a vat of acid. That's what I did and I'm a millionaire, so you should probably listen to me.",
+    source: "So Inspirational: 16,523 Quotes to Live Your Life By.",
   },
 ];
