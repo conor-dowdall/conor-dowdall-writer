@@ -21,14 +21,18 @@
         background-color: var(--default-block-bg-color);
 
         & > img {
-          opacity: 0.45;
-          transition: opacity 1000ms;
+          opacity: 0.4;
+          transition: opacity 1100ms;
           width: 100%;
           border-radius: var(--default-border-radius);
         }
+        & > audio {
+          margin-top: 1em;
+          display: block;
+        }
         & > p {
-          opacity: 0.45;
-          transition: opacity 1000ms;
+          opacity: 0.4;
+          transition: opacity 1100ms;
           font-size: var(--default-font-size);
           color: var(--default-font-color);
         }
@@ -51,6 +55,7 @@
       <h2>Conor Dowdall | Talks on Writing</h2>
       <article>
         <img src="/speaking/speech.webp" alt="conor giving a speech" />
+        <audio src="/audio/writing.mp3" type="audio/mpeg" controls></audio>
         <p>
           Conor Dowdall is one of Ireland's most important writers. He was born
           in County Dublin and is the author of hundreds of thousands of novels
@@ -77,6 +82,7 @@
       <h2>Conor Dowdall | Motivational Speaker</h2>
       <article>
         <img src="/speaking/io.webp" alt="conor giving a motivational speech" />
+        <audio src="/audio/believe.mp3" type="audio/mpeg" controls></audio>
         <p>
           Conor Dowdall is the author of two best-selling self-help books,
           <i>Believe in Me Believing in You</i> and
@@ -114,6 +120,8 @@
       <h2>Conor Dowdall | Guru</h2>
       <article>
         <img src="/speaking/buddha.webp" alt="conor meditating with students" />
+        <audio src="/audio/guru.mp3" type="audio/mpeg" controls></audio>
+
         <p>
           Conor Dowdall is the founder and head of the Śūnyatā Foundation. The
           foundation, established in 2006, operates an ashram and yoga centre
@@ -156,6 +164,7 @@
       <h2>Conor Dowdall | Catholic Mass</h2>
       <article>
         <img src="/speaking/mass.webp" alt="conor saying mass" />
+        <audio src="/audio/church.mp3" type="audio/mpeg" controls></audio>
         <p>
           Conor will say Catholic Mass for €400,000. Use the
           <a href="/conor-dowdall-writer/html/contact.html">Contact</a> page on
@@ -174,7 +183,7 @@
           });
         },
         {
-          threshold: 0.25,
+          threshold: 0.3,
         }
       );
 
