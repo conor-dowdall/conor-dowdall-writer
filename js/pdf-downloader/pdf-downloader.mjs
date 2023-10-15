@@ -1,14 +1,14 @@
 const template = document.createElement("template");
 template.innerHTML = /* HTML */ `
   <style>
-    :host {
+    .main-area {
       --width: 12rem;
+      @media (max-width: 48em) {
+        --width: 10rem;
+      }
       --height: calc(var(--width) * 1.3);
       --page-rotate-duration: 300ms;
       --translateZ-duration: 600ms;
-    }
-
-    .main-area {
       position: relative;
       transform-style: preserve-3d;
       perspective: calc(var(--width) * 5);
