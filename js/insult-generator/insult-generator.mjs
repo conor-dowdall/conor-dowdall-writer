@@ -1,7 +1,7 @@
 import insultsObject from "./insults.mjs";
 
 const template = document.createElement("template");
-template.innerHTML = /* HTML */ `
+template.innerHTML = /*html*/ `
   <style>
     :host {
       --_image-width: 7.5rem;

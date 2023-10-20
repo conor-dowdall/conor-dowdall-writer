@@ -1,5 +1,5 @@
 const template = document.createElement("template");
-template.innerHTML = /* HTML */ `
+template.innerHTML = /*html*/ `
   <style>
     :host {
       --_border-radius: 2.6em;

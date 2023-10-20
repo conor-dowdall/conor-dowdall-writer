@@ -1,5 +1,5 @@
 const template = document.createElement("template");
-template.innerHTML = /* HTML */ `
+template.innerHTML = /*html*/ `
   <style>
     :host {
       display: block;

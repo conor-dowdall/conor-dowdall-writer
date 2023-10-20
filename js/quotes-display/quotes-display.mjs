@@ -2,7 +2,7 @@ import quotesArray from "./quotes.mjs";
 import "./quote-display.mjs";
 
 const template = document.createElement("template");
-template.innerHTML = /* HTML */ ` <div class="main-area"></div> `;
+template.innerHTML = /*html*/ ` <div class="main-area"></div> `;
 customElements.define(
   "quotes-display",
   class QuotesDisplay extends HTMLElement {
