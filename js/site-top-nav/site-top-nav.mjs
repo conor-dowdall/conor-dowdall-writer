@@ -1,5 +1,5 @@
 const template = document.createElement("template");
-template.innerHTML = /* HTML */ `
+template.innerHTML = /*html*/ `
   <style>
     .sr-only {
       clip: rect(0 0 0 0);
@@ -38,13 +38,13 @@ template.innerHTML = /* HTML */ `
         list-style: none;
         padding: 0;
         gap: 0.5em;
-        transition: transform 350ms ease-out;
+        transition: transform 350ms linear;
 
         & > li {
-          background-size: 1.9em;
-          background-blend-mode: exclusion;
+          background-size: 1.5em;
           background-repeat: no-repeat;
           background-image: url("/conor-dowdall-writer/site-top-nav/schreib-feder.svg");
+          transition: background-size 350ms, background-position-x 350ms;
 
           & > a {
             color: white;
@@ -56,7 +56,8 @@ template.innerHTML = /* HTML */ `
         }
 
         & > li:is(:hover, :focus-within, :active) {
-          background-size: 2em;
+          background-size: 1.7em;
+          background-position-x: 5%;
 
           & > a {
             text-shadow: var(--text-shadow-primary);
@@ -83,8 +84,8 @@ template.innerHTML = /* HTML */ `
           background-size: 85%;
           height: 5em;
           width: 5em;
-          box-shadow: 0.1em 0.1em 0.15em black;
-          transition: all 40ms;
+          box-shadow: 0.15em 0.15em 0.15em black;
+          transition: transform 40ms, box-shadow 40ms;
         }
 
         & > #toggle-menu-button[aria-expanded="true"] {
@@ -119,7 +120,6 @@ template.innerHTML = /* HTML */ `
       }
     }
   </style>
-
   <nav id="site-top-nav">
     <a id="logo" href="/conor-dowdall-writer/index.html">
       <img
