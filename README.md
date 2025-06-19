@@ -2,9 +2,7 @@
 
 ## A Website for the Alleged Writer Conor Dowdall
 
-Find the site live on GitHub Pages:
-
-<https://conor-dowdall.github.io/conor-dowdall-writer/>
+Designed using custom elements developed using vanilla-web-components, HTML, CSS, and JS.
 
 > I am attempting to fill a silent moment with non-relevant conversation.  
 > &nbsp;&nbsp;&nbsp;&nbsp;- Lt. Cmdr. Data  
