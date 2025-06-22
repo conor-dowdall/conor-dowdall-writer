@@ -1,7 +1,7 @@
 {
   "name": "conor-dowdall-writer",
   "private": false,
-  "version": "2.1.0",
+  "version": "3.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.4.5"
+    "vite": "^6.3.5"
   }
 }
